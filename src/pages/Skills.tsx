@@ -3,16 +3,16 @@ import SkillCard from "../components/SkillCard";
 
 import {
   FaReact,
-  FaNodeJs,
   FaGitAlt,
-  FaDatabase,
+  FaDocker,
 } from "react-icons/fa";
 
 import {
   SiTypescript,
-  SiJavascript,
   SiMysql,
+  SiPostgresql,
 } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
 
 export default function Skills() {
   return (
@@ -21,17 +21,17 @@ export default function Skills() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <h1>Skills</h1>
+     
 
       <div className="skills-grid">
 
-        <SkillCard icon={<FaReact />} name="React" /> <br></br>
+        <SkillCard icon={<FaReact />} name="React" />
         <SkillCard icon={<SiTypescript />} name="TypeScript" />
-        <SkillCard icon={<SiJavascript />} name="JavaScript" />
-        <SkillCard icon={<FaNodeJs />} name="Node.js" />
-        <SkillCard icon={<SiMysql />} name="MySQL" />
         <SkillCard icon={<FaGitAlt />} name="Git" />
-        <SkillCard icon={<FaDatabase />} name="Databases" />
+      <SkillCard icon={<FaGolang />} name="Go" />
+      <SkillCard icon={<FaDocker />} name="Docker" />
+      <SkillCard icon={<SiPostgresql />} name="PostgreSQL" />
+      <SkillCard icon={<SiMysql />} name="MySQL" />
 
       </div>
     </motion.div>

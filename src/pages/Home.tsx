@@ -23,7 +23,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        Software developer focused on building modern web applications with React and Go, with a strong interest in data analysis and dashboard development.
+      I love creating modern web apps and working with data to create dashboards that analyze trends, uncover insights, and drive better solutions.
       </motion.p>
 
       {/* Social Icons */}
@@ -35,7 +35,7 @@ export default function Home() {
         transition={{ delay: 0.8 }}
       >
         <motion.a
-          href="https://github.com/YOUR_USERNAME"
+          href="https://github.com/shreyanka511"
           target="_blank"
           whileHover={{ scale: 1.3, rotate: 5 }}
         >
@@ -43,7 +43,7 @@ export default function Home() {
         </motion.a>
 
         <motion.a
-          href="https://linkedin.com/in/YOUR_USERNAME"
+          href="https://linkedin.com/in/shreyanka-padennavar-a6445a219"
           target="_blank"
           whileHover={{ scale: 1.3, rotate: -5 }}
         >

@@ -9,7 +9,7 @@ interface Skill {
 
 interface ProjectCardProps {
   name: string;
-  logo: string; // path to project image/logo
+  logo: string; 
   description: string;
   skills: Skill[];
   github: string;
@@ -41,7 +41,7 @@ export default function ProjectCard({
           <motion.div
             key={idx}
             className="skill-icon"
-            title={skill.name} // hover tooltip
+            title={skill.name} 
             whileHover={{ scale: 1.3 }}
           >
             {skill.icon}

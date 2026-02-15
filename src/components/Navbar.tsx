@@ -5,10 +5,7 @@ export default function Navbar() {
   const links = [
     { to: "/", label: "Home" },
     { to: "/skills", label: "Technologies" },
-    // { to: "/resume", label: "Resume" },
-    // { to: "/jobs", label: "Jobs" },
     { to: "/projects", label: "Builds" },
-    // { to: "/education", label: "Education" },
   ];
 
   return (
