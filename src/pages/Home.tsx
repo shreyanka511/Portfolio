@@ -60,7 +60,7 @@ export default function Home() {
         transition={{ delay: 1.1 }}
       >
         <h2>Contact Me</h2>
-        <p>Email: shreyanka1105@email.com</p>
+        <p>Email: shreyanka1105@gmail.com</p>
       </motion.div>
     </motion.div>
   );
