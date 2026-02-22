@@ -32,7 +32,6 @@ export default function Skills() {
       <SkillCard icon={<FaDocker />} name="Docker" />
       <SkillCard icon={<SiPostgresql />} name="PostgreSQL" />
       <SkillCard icon={<SiMysql />} name="MySQL" />
-
       </div>
     </motion.div>
   );

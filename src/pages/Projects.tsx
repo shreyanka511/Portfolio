@@ -15,6 +15,20 @@ const projects: Project[] = [
     skills: ["Networking", "MATLAB", "Data Visualization"],
     github: "https://github.com/shreyanka511/Performance-Analysis-using-QAM",
   },
+  {
+    name: "Traffic Analysis Dashboard",
+    description:
+    "Performed EDA on traffic data, created interactive visualizations, and developed a dashboard to monitor traffic patterns and congestion.",
+    skills: ["EDA", "Data Visualization", "Power BI"],
+    github: "https://github.com/shreyanka511/Traffic-Analysis-Dashboard",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+    "Designed and developed a personal portfolio website using React, showcasing projects, skills, and experience with responsive design.",
+    skills: ["React", "CSS", "Typescript", "HTML"],
+    github: "https://github.com/shreyanka511/Portfolio"
+  }
 ];
 
 export default function Projects() {

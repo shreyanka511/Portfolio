@@ -15,7 +15,7 @@ export default function Home() {
         initial={{ y: 40 }}
         animate={{ y: 0 }}
       >
-        hi ! I am Shreyanka
+        Hi ! I am Shreyanka
       </motion.h1>
 
       <motion.p
@@ -23,7 +23,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-      I love creating modern web apps and working with data to create dashboards that analyze trends, uncover insights, and drive better solutions.
+      I like building modern web apps and working with data to create dashboards that show trends and useful insights.I’m also passionate about DevOps practices and working with Docker to streamline development and deployment workflows.
       </motion.p>
 
       {/* Social Icons */}
@@ -60,7 +60,7 @@ export default function Home() {
         transition={{ delay: 1.1 }}
       >
         <h2>Contact Me</h2>
-        <p>Email: shreyanka1105@gmail.com</p>
+        <p><a href="mailto:shreyanka1105@gmail.com">shreyanka1105@gmail.com</a></p>
       </motion.div>
     </motion.div>
   );
