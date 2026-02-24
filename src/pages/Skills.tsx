@@ -1,17 +1,8 @@
 import { motion } from "framer-motion";
 import SkillCard from "../components/SkillCard";
 
-import {
-  FaReact,
-  FaGitAlt,
-  FaDocker,
-} from "react-icons/fa";
-
-import {
-  SiTypescript,
-  SiMysql,
-  SiPostgresql,
-} from "react-icons/si";
+import { FaReact, FaGitAlt, FaDocker } from "react-icons/fa";
+import { SiTypescript, SiMysql, SiPostgresql } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 export default function Skills() {
@@ -20,18 +11,27 @@ export default function Skills() {
       className="page"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
     >
-     
+      {/* Languages */}
+      <div className="skills-section">
+        {/* <h2 className="skills-heading">Languages</h2> */}
+        <div className="skills-grid">
+          <SkillCard icon={<FaReact size={28} />} name="React" />
+          <SkillCard icon={<SiTypescript size={28} />} name="TypeScript" />
+          <SkillCard icon={<FaGolang size={28} />} name="Go" />
+        </div>
+      </div>
 
-      <div className="skills-grid">
-
-        <SkillCard icon={<FaReact />} name="React" />
-        <SkillCard icon={<SiTypescript />} name="TypeScript" />
-        <SkillCard icon={<FaGitAlt />} name="Git" />
-      <SkillCard icon={<FaGolang />} name="Go" />
-      <SkillCard icon={<FaDocker />} name="Docker" />
-      <SkillCard icon={<SiPostgresql />} name="PostgreSQL" />
-      <SkillCard icon={<SiMysql />} name="MySQL" />
+      {/* Tools */}
+      <div className="skills-section">
+        {/* <h2 className="skills-heading">Tools</h2> */}
+        <div className="skills-grid">
+          <SkillCard icon={<FaGitAlt size={28} />} name="Git" />
+          <SkillCard icon={<FaDocker size={28} />} name="Docker" />
+          <SkillCard icon={<SiPostgresql size={28} />} name="PostgreSQL" />
+          <SkillCard icon={<SiMysql size={28} />} name="MySQL" />
+        </div>
       </div>
     </motion.div>
   );
