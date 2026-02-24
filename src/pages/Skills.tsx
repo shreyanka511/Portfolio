@@ -15,7 +15,6 @@ export default function Skills() {
     >
       {/* Languages */}
       <div className="skills-section">
-        {/* <h2 className="skills-heading">Languages</h2> */}
         <div className="skills-grid">
           <SkillCard icon={<FaReact size={28} />} name="React" />
           <SkillCard icon={<SiTypescript size={28} />} name="TypeScript" />
@@ -25,7 +24,6 @@ export default function Skills() {
 
       {/* Tools */}
       <div className="skills-section">
-        {/* <h2 className="skills-heading">Tools</h2> */}
         <div className="skills-grid">
           <SkillCard icon={<FaGitAlt size={28} />} name="Git" />
           <SkillCard icon={<FaDocker size={28} />} name="Docker" />
